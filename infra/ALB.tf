@@ -21,7 +21,7 @@ resource "aws_lb_target_group" "alvo" {
   target_type = "ip"
   vpc_id      = module.vpc.vpc_id
   health_check {
-    path = "/leo"
+    path = "/alisson"
   }
 }
 
