@@ -7,7 +7,7 @@ module "homolog" {
     imagem="leonardosartorello/go_ci:22"
 }
 
-output "alb_dns" {
-  value = module.homolog.alb_dns
+output "IP_alb" {
+  value = module.homolog.IP
 }
 
